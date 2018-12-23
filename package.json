@@ -1,0 +1,29 @@
+{
+  "name": "loginapp",
+  "version": "1.0.0",
+  "description": "simple authentication",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "*",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "*",
+    "express-handlebars": "^3.0.0",
+    "express-messages": "*",
+    "express-session": "^1.15.6",
+    "express-sessions": "*",
+    "express-validator": "^5.3.0",
+    "express-validators": "*",
+    "mongodb": "*",
+    "mongoose": "^5.3.14",
+    "passport": "^0.4.0",
+    "passport-http": "*",
+    "passport-local": "^1.0.0"
+  }
+}
